@@ -10,7 +10,7 @@ module LinkedIn
 
       def picture_urls(options={})
         path = "#{person_path(options)}/picture_urls::(original)"
-        simple_query(path, options)
+        #simple_query(path, options)
       end
 
       def connections(options={})
