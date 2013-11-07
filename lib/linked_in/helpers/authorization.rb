@@ -7,7 +7,7 @@ module LinkedIn
         :request_token_path => "/uas/oauth/requestToken",
         :access_token_path  => "/uas/oauth/accessToken",
         :authorize_path     => "/uas/oauth/authorize",
-        :api_host           => "https://api.linkedin.com/v1",
+        :api_host           => "https://api.linkedin.com",
         :auth_host          => "https://www.linkedin.com"
       }
 
